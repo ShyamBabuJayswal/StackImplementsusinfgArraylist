@@ -16,7 +16,7 @@ public class Usingarraylist {
 
         //pop
         public static int pop() {
-            if (isEmpty()) {
+            if (isEmpty()) {//funtion 
                 return -1;
             }
             int top = list.get(list.size - 1);
